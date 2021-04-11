@@ -1,0 +1,12 @@
+.main-logo{
+    position: relative;
+    top: 150px;
+    left: 500px;
+}
+
+#Search{
+    position: relative;
+    top: 150px;
+    left: 450px;
+    width: 30%;
+}
