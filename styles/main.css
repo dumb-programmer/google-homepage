@@ -17,10 +17,9 @@ nav{
     margin-top: -6px;
 }
 
-li{
+.navigation{
     display: inline;
     margin: 3px;
-    font-size: small;
 }
 
 #profile-image{
@@ -32,7 +31,42 @@ li{
     vertical-align: middle;
 }
 
-a{
-    color: black;
+nav a{
+    font-size: small;
     text-decoration: none;
+    color: black;
+}
+
+footer a{
+    font-size: small;
+    text-decoration: none;
+    color: grey;
+}
+
+footer{
+    position: relative;
+    top: 380px;
+    padding: 25px;
+    background-color: #f2f2f2;
+    color: grey;
+}
+
+li.footer{
+    display: inline;
+}
+
+.footer-left{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+li{
+    margin: 8px;
+}
+
+.footer-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
