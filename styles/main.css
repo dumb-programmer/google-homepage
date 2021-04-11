@@ -76,3 +76,14 @@ li{
     top: 370px;
     left: 540px;
 }
+
+.Search-btn, .Feeling-lucky-btn{
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    height: 35px;
+    border-radius: 9%;
+}
+
+.Search-btn{
+    margin-right: 10px;
+}
