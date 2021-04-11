@@ -70,3 +70,9 @@ li{
     bottom: 0;
     right: 0;
 }
+
+.buttons{
+    position: absolute;
+    top: 370px;
+    left: 540px;
+}
