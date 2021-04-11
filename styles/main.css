@@ -1,12 +1,12 @@
 .main-logo{
-    position: relative;
+    position: absolute;
     top: 150px;
     left: 500px;
 }
 
 #Search{
-    position: relative;
-    top: 150px;
+    position: absolute;
+    top: 270px;
     left: 450px;
     width: 30%;
 }
@@ -45,7 +45,7 @@ footer a{
 
 footer{
     position: relative;
-    top: 380px;
+    top: 520px;
     padding: 25px;
     background-color: #f2f2f2;
     color: grey;
@@ -73,7 +73,7 @@ li{
 
 .buttons{
     position: absolute;
-    top: 370px;
+    top: 310px;
     left: 540px;
 }
 
