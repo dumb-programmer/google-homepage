@@ -37,6 +37,8 @@ nav {
 #menu-image {
     vertical-align: middle;
     margin-top: 7.8px;
+    height: 25px;
+    width: 25px;
 }
 
 nav a {
