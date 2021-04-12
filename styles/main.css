@@ -10,7 +10,7 @@
     left: 399px;
     width: 30%;
     border-radius: 25px;
-    height: 25px;
+    height: 30px;
     width: 500px;
     border: 1px solid grey;
 }
@@ -100,4 +100,18 @@ li {
 html,body {
     margin:0;
     padding:0;
+}
+
+#mic-icon{
+    position: absolute;
+    left: 870px;
+    top: 269px;
+    z-index: 2;
+}
+
+#search-icon{
+    position: absolute;
+    top: 269px;
+    left: 410px;
+    z-index: 2;
 }
