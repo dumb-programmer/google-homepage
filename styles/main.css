@@ -47,23 +47,19 @@ nav a {
     color: black;
 }
 
+footer {
+    position: relative;
+    top: 540px;
+    padding: 32px 0;
+    background-color: #f2f2f2;
+}
+
 footer a {
     font-size: small;
     text-decoration: none;
     color: grey;
 }
 
-footer {
-    position: relative;
-    top: 540px;
-    padding: 25px;
-    background-color: #f2f2f2;
-    color: grey;
-}
-
-li.footer {
-    display: inline;
-}
 
 .footer-left {
     position: absolute;
@@ -73,12 +69,15 @@ li.footer {
 
 li {
     margin: 8px;
+    display: inline;
 }
 
 .footer-right {
     position: absolute;
     bottom: 0;
     right: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .buttons {
@@ -96,4 +95,9 @@ li {
 
 .Search-btn {
     margin-right: 10px;
+}
+
+html,body {
+    margin:0;
+    padding:0;
 }
