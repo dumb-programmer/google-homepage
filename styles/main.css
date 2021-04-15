@@ -47,11 +47,47 @@ nav a {
     color: black;
 }
 
-footer {
+/* footer {
     position: relative;
     top: 540px;
     padding: 32px 0;
     background-color: #f2f2f2;
+} */
+
+footer {
+    /* display: flex; */
+    /* align-items: flex-end; */
+    background-color: #f2f2f2;
+    /* padding: 0.006em; */
+
+    /* background-color: #eeeeee; */
+    padding: 7px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    margin-right: 10px;
+}
+.right-footer {
+    /* align-self: flex-end; */
+    margin-left: 20px;
+}
+
+.left-footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 20px;
+    margin-bottom: 7px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    
 }
 
 footer a {
@@ -60,25 +96,25 @@ footer a {
     color: grey;
 }
 
-
+/* 
 .footer-left {
     position: absolute;
     bottom: 0;
     left: 0;
-}
+} */
 
 li {
     margin: 8px;
     display: inline;
 }
 
-.footer-right {
+/* .footer-right {
     position: absolute;
     bottom: 0;
     right: 0;
     padding-left: 0;
     padding-right: 0;
-}
+} */
 
 .buttons {
     position: absolute;
