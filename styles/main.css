@@ -1,153 +1,129 @@
 .main-logo {
-    position: absolute;
-    top: 150px;
-    left: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#Search {
-    position: absolute;
-    top: 270px;
-    left: 399px;
-    width: 30%;
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-box {
+    width: 35vw;
     border-radius: 25px;
     height: 30px;
-    width: 500px;
     border: 1px solid grey;
+    margin-top: 3vh;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 25vh;
+}
+
+.search-btn, .feeling-lucky-btn {
+    background-color: #f8f9fa;
+    margin-top: 30vh;
+    border: 1px solid #dadce0;
+    height: 35px;
+    border-radius: 9%;
+}
+
+.search-btn {
+    margin-right: 10px;
+}
+
+.icons {
+    position: absolute;
+    width: 34vw;
+}
+
+@media (max-width: 900px) {
+    #search-box {
+        width: 300px;
+    }
+    .icons {
+        width: 300px;
+    }
+}
+
+#mic-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: auto;
+    z-index: 2;
+}
+
+#search-icon {
+    position: absolute;
+    right: 0;
+    z-index: 2;
 }
 
 nav {
-    text-align: right;
-    vertical-align: text-top;
-    margin-top: -13px;
-}
-
-.navigation {
-    display: inline;
-    margin: 5px;
-}
-
-#profile-image {
-    vertical-align: middle;
-    border-radius: 50%;
-    height: 32px;
-    width: 32px;
-    margin-top: 7.8px;
-}
-
-#menu-image {
-    vertical-align: middle;
-    margin-top: 7.8px;
-    height: 25px;
-    width: 25px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    position: relative;
+    top: 12px;
 }
 
 nav a {
     font-size: small;
     text-decoration: none;
     color: black;
+    margin: 5px;
 }
 
-/* footer {
+.links-wrapper {
     position: relative;
-    top: 540px;
-    padding: 32px 0;
-    background-color: #f2f2f2;
-} */
+    top: 0.4rem;
+}
+
+#profile-image {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+
+#menu-image {
+    height: 25px;
+    width: 25px;
+}
 
 footer {
-    /* display: flex; */
-    /* align-items: flex-end; */
     background-color: #f2f2f2;
-    /* padding: 0.006em; */
-
-    /* background-color: #eeeeee; */
-    padding: 7px;
-    position: fixed;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
-
-footer a{
-    margin-right: 10px;
-}
-.right-footer {
-    /* align-self: flex-end; */
-    margin-left: 20px;
-}
-
-.left-footer{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin-right: 20px;
-    margin-bottom: 7px;
-}
-
-/* .footer-container{
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    
-} */
 
 footer a {
     font-size: small;
     text-decoration: none;
     color: grey;
-}
-
-/* 
-.footer-left {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-} */
-
-li {
-    margin: 8px;
-    display: inline;
-}
-
-/* .footer-right {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding-left: 0;
-    padding-right: 0;
-} */
-
-.buttons {
-    position: absolute;
-    top: 310px;
-    left: 540px;
-}
-
-.Search-btn, .Feeling-lucky-btn {
-    background-color: #f8f9fa;
-    border: 1px solid #dadce0;
-    height: 35px;
-    border-radius: 9%;
-}
-
-.Search-btn {
     margin-right: 10px;
 }
 
-html,body {
-    margin:0;
-    padding:0;
+.right-footer {
+    margin-left: 20px;
 }
 
-#mic-icon{
+.left-footer {
     position: absolute;
-    left: 870px;
-    top: 269px;
-    z-index: 2;
+    right: 0;
+    top: 0.7rem;
 }
 
-#search-icon{
-    position: absolute;
-    top: 269px;
-    left: 410px;
-    z-index: 2;
+html, body {
+    margin: 0;
+    padding: 0;
 }
